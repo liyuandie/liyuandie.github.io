@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: Crawford
+subtitle: 'Eat, Code, Sleep.'
+description: '鞠躬爱好者'
 keywords:
-author: John Doe
+author: Crawford
 # language: en
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://yanzulee.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -108,6 +108,9 @@ theme: hexo-theme-matery
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
+  repo: https://e.coding.net/liyuandie/hexo-blog-static.git
+  branch: master
+  message: deploy
 
 search:
   path: search.xml
