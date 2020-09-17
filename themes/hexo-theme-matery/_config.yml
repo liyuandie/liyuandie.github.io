@@ -67,7 +67,7 @@ dream:
   enable: true
   showTitle: true
   title: share with u
-  text: 有人离开，有人留下，有人幸福着，有人痛苦着。十字路口，有婚车，有急救车，也有自行车。新娘盘好头等着新郎，突发脑溢血的老太太被急匆匆送往医院，意气风发的少年还有一百多天就要高考。我现在在十字路口，有人会等着我，坏人也会跟随，因为人永远无法战胜孤独。要有不妥协的勇气和能力啊，傻瓜。
+  text: 我所有的自负皆来自我的自卑，所有的英雄气概都来自我的软弱。嘴里振振有词是因为心里满是怀疑，深情是因为痛恨自己的无情。这世界没有一件事情是虚空而生的，站在光里，背后就会有阴影，这深夜里一片寂静，是因为你还没有听见声音。
 
 # Whether to display the musics.
 # 是否在首页显示音乐.
@@ -514,8 +514,8 @@ subtitle:
   startDelay: 300 # 开始延迟
   typeSpeed: 100 # 打字速度
   backSpeed: 50 # 删除速度
-  sub1: 从来没有真正的绝境, 只有心灵的迷途
-  sub2: Never really desperate, only the lost of the soul
+  sub1: 世界上只有一种英雄主义，那就是认识生活的真相后依然热爱它 -- 罗曼.罗兰
+  sub2: Il n'ya qu'un héroïsme au monde,c'est de voir le monde tel qu'il est et de l'aimer Romain Rolland.
 
 # 手机二级菜单.
 navMenu:
