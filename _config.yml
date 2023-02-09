@@ -108,8 +108,8 @@ theme: hexo-theme-matery
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://e.coding.net/liyuandie/hexo-blog-static.git
-  branch: master
+  repo: https://github.com/liyuandie/liyuandie.github.io.git
+  branch: gh-pages
   message: deploy
 
 search:
