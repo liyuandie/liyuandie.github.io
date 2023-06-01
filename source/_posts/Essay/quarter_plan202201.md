@@ -5,7 +5,6 @@ tags: [随记, 计划]
 category: ESSAY
 date: '2022-02-11T11:15:42Z'
 math: false
-password: 25c05c75cec5fdfd5e89dfefc8801b23c3219a6fb0a52c101848a00e513bd00f
 ---
 
 2022 新的一年，以此篇文章为开始，以后每一季度列出自己的工作和学习计划
