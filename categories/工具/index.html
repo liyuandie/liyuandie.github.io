@@ -355,20 +355,20 @@
                 </a>
                 
                 
-                <a href="/categories/%E5%B7%A5%E5%85%B7/" title="工具: 1">
+                <a href="/categories/React-Native/" title="React Native: 5">
                     <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            style="background-color: #E8F8F5;">工具
-                        <span class="tag-length">1</span>
+                             chip-default "
+                            style="background-color: #E8F8F5;">React Native
+                        <span class="tag-length">5</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/React-Native/" title="React Native: 5">
+                <a href="/categories/%E5%B7%A5%E5%85%B7/" title="工具: 1">
                     <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #FEF9E7;">React Native
-                        <span class="tag-length">5</span>
+                             chip-active "
+                            style="background-color: #FEF9E7;">工具
+                        <span class="tag-length">1</span>
                     </span>
                 </a>
                 
@@ -458,23 +458,22 @@
 
     <footer class="page-footer bg-color">
   
-  <div
-    class="container row center-align"
-    style="margin-bottom: 15px !important;"
-  >
+  <div class="container row center-align">
     <div class="col s12 m8 l8 copy-right">
       Copyright&nbsp;&copy;
-      <span id="year">2017</span>
-      <a href="/about" target="_blank">Crawford</a>
-      |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a> |&nbsp;Theme&nbsp;<a
-        href="https://github.com/blinkfox/hexo-theme-matery"
+      <span id="year"> 2017 </span>
+      <a href="/about" target="_blank"> Crawford </a>
+      |&nbsp;<a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2023001753号</a> |&nbsp;Powered by&nbsp;<a
+        href="https://hexo.io/"
         target="_blank"
-        >Matery</a
+        >Hexo</a
       >
+      |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
       <br />
        &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
         class="white-color"
-        >42.5k</span
+      >
+        42.5k </span
       >&nbsp;字      
       <span id="busuanzi_container_site_pv">
         |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span
@@ -497,36 +496,36 @@
       <span id="sitetime">载入运行时间...</span>
       <script>
         function siteTime() {
-          var seconds = 1000
-          var minutes = seconds * 60
-          var hours = minutes * 60
-          var days = hours * 24
-          var years = days * 365
-          var today = new Date()
-          var startYear = '2017'
-          var startMonth = '9'
-          var startDate = '1'
-          var startHour = '0'
-          var startMinute = '0'
-          var startSecond = '0'
-          var todayYear = today.getFullYear()
-          var todayMonth = today.getMonth() + 1
-          var todayDate = today.getDate()
-          var todayHour = today.getHours()
-          var todayMinute = today.getMinutes()
-          var todaySecond = today.getSeconds()
-          var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond)
-          var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond)
-          var diff = t2 - t1
-          var diffYears = Math.floor(diff / years)
-          var diffDays = Math.floor(diff / days - diffYears * 365)
-          var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours)
-          var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes)
+          var seconds = 1000;
+          var minutes = seconds * 60;
+          var hours = minutes * 60;
+          var days = hours * 24;
+          var years = days * 365;
+          var today = new Date();
+          var startYear = '2017';
+          var startMonth = '9';
+          var startDate = '1';
+          var startHour = '0';
+          var startMinute = '0';
+          var startSecond = '0';
+          var todayYear = today.getFullYear();
+          var todayMonth = today.getMonth() + 1;
+          var todayDate = today.getDate();
+          var todayHour = today.getHours();
+          var todayMinute = today.getMinutes();
+          var todaySecond = today.getSeconds();
+          var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+          var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+          var diff = t2 - t1;
+          var diffYears = Math.floor(diff / years);
+          var diffDays = Math.floor(diff / days - diffYears * 365);
+          var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+          var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
           var diffSeconds = Math.floor(
             (diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds
-          )
+          );
           if (startYear == todayYear) {
-            document.getElementById('year').innerHTML = todayYear
+            document.getElementById('year').innerHTML = todayYear;
             document.getElementById('sitetime').innerHTML =
               '本站已安全运行 ' +
               diffDays +
@@ -536,9 +535,9 @@
               diffMinutes +
               ' 分钟 ' +
               diffSeconds +
-              ' 秒'
+              ' 秒';
           } else {
-            document.getElementById('year').innerHTML = startYear + ' - ' + todayYear
+            document.getElementById('year').innerHTML = startYear + ' - ' + todayYear;
             document.getElementById('sitetime').innerHTML =
               '本站已安全运行 ' +
               diffYears +
@@ -550,10 +549,10 @@
               diffMinutes +
               ' 分钟 ' +
               diffSeconds +
-              ' 秒'
+              ' 秒';
           }
         }
-        setInterval(siteTime, 1000)
+        setInterval(siteTime, 1000);
       </script>
       
       <br />
